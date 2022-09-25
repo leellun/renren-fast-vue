@@ -158,7 +158,7 @@ export default {
         ],
         enableStartTime: [
           {
-            required: true,
+            required: false,
             message: "可以领取的开始日期不能为空",
             trigger: "blur"
           }

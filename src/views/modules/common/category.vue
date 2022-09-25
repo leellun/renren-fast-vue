@@ -53,7 +53,7 @@ export default {
         url: this.$http.adornUrl("/product/category/list/tree"),
         method: "get"
       }).then(({ data }) => {
-        this.menus = data.data;
+        this.menus = data;
       });
     },
     nodeclick(data, node, component) {

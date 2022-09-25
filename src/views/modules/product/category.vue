@@ -107,8 +107,8 @@ export default {
         url: this.$http.adornUrl("/product/category/list/tree"),
         method: "get"
       }).then(({ data }) => {
-        console.log("成功获取到菜单数据...", data.data);
-        this.menus = data.data;
+        console.log("成功获取到菜单数据...", data);
+        this.menus = data;
       });
     },
     batchDelete() {
